@@ -26,7 +26,6 @@ class PongBall(Widget) :
     velocity_y = NumericProperty(0)
     # Создаем условный вектор
     velocity = ReferenceListProperty(velocity_x, velocity_y)
-
     # Заставим шарик двигаться
     def move(self) :
         self.pos = Vector(*self.velocity) + self.pos
