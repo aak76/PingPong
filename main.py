@@ -7,7 +7,7 @@ from kivy.vector import Vector
 from kivy.clock import Clock
 from random import randint
 
-
+# test comment
 class PongPaddle(Widget) :
     score = NumericProperty(0)  ## очки игрока
     ## Отскок мячика при коллизии с панелькой игрока
